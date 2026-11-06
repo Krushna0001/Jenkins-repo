@@ -24,7 +24,7 @@ pipeline {
            echo 'its new stage'
            }
         }
-        stages('New') {
+        stage('New') {
             steps {
                 echo 'SCM UPDATE'
         }   
