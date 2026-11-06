@@ -22,7 +22,12 @@ pipeline {
         stage('Hello') {
        steps {
            echo 'its new stage'
-       }
+           }
+        }
+        stages('New') {
+            steps {
+                echo 'SCM UPDATE'
+        }   
        }
     }
 
