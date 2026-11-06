@@ -19,6 +19,11 @@ pipeline {
                 echo 'Testing...'
             }
         }
+        stage('Hello') {
+       steps {
+           echo 'its new stage'
+       }
+       }
     }
 
     post {
