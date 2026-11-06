@@ -20,15 +20,15 @@ pipeline {
             }
         }
         stage('Hello') {
-       steps {
-           echo 'its new stage'
-           }
+            steps {
+                echo 'its new stage'
+            }
         }
         stage('New') {
             steps {
                 echo 'SCM UPDATE'
-        }   
-       }
+            }
+        }
     }
 
     post {
